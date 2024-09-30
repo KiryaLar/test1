@@ -7,11 +7,10 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String number = String.valueOf(scanner.nextInt());
-        System.out.println(number.replaceAll("(\\d)(?=(\\d{3})+(?!\\d))", "$1,"));
-
-
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int x : array) {
+            System.out.println(x);
+        }
 
     }
 
