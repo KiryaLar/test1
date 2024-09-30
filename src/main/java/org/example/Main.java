@@ -7,6 +7,9 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
         int[] array1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         for (int x : array1) {
             System.out.println(x);
@@ -19,8 +22,6 @@ public class Main {
         for (int x : array3) {
             System.out.println(x);
         }
-
-
     }
 
 }
