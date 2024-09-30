@@ -10,6 +10,18 @@ public class Main {
         System.out.println("");
         System.out.println("");
         System.out.println("");
+        int[] array1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int x : array1) {
+            System.out.println(x);
+        }
+        int[] array2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int x : array2) {
+            System.out.println(x);
+        }
+        int[] array3 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int x : array3) {
+            System.out.println(x);
+        }
     }
 
 }
